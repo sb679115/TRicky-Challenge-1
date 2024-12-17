@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chain of Custody - Digital Forensics Case</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .paper {
+            background-color: #ffffff;
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+            text-transform: uppercase;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+
+        .evidence {
+            background: #fdfdfd;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+
+        .evidence a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .evidence a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        /* Stamp Style */
+        .stamp {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: rgb(44, 221, 8);
+            border: 2px solid rgb(14, 218, 7);
+            padding: 10px;
+            transform: rotate(-15deg);
+            opacity: 0.8;
+        }
+
+        /* Signature Style */
+        .signature {
+            margin-top: 40px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5em;
+        }
+
+        .signature-line {
+            display: inline-block;
+            width: 200px;
+            border-top: 1px solid #000;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="paper">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="logo.png" alt="Forensics Department Logo">
+        </div>
+
+        <header>
+            <h1>Central Investigation Agency</h1>
+            <p>Forensics Group - Digital Chain of Custody</p>
+            <p>Case ID: <strong>#DF-2024-001</strong></p>
+        </header>
+
+        <h2>Case Details</h2>
+        <p><strong>Investigator:</strong> <span id="investigator-name">Jane Doe</span></p>
+        <p><strong>Case Description:</strong> Suspicious activity detected in a compromised system. Evidence has been collected for detailed analysis.</p>
+        <p><strong>Date of Collection:</strong> 2024-06-17</p>
+        
+        <h2>Evidence Files</h2>
+
+        <div class="evidence">
+            <p><strong>Evidence 1: Network Traffic Capture</strong></p>
+            <p>Description: Packet capture file containing suspicious network activity.</p>
+            <p><a href="Flag1.pcapng" download>Download Evidence1</a></p>
+        </div>
+
+        <div class="evidence">
+            <p><strong>Evidence 2: Log File</strong></p>
+            <p>Description: System log file showing traces of unusual activity.</p>
+            <p><a href="Flag2.log" download>Download Evidence2</a></p>
+        </div>
+
+        <div class="evidence">
+            <p><strong>Evidence 3: Image File</strong></p>
+            <p>Description: A suspicious image file that may contain hidden data.</p>
+            <p><a href="Flag3.png" download>Download Evidence3</a></p>
+        </div>
+
+        <h2>Instructions</h2>
+        <p>Analyze the above evidence files carefully to recover the flag. The final part of the flag is hidden somewhere on this page.</p>
+
+        <div class="evidence">
+            Authorized by: <br>
+            <span class="signature" id="signature" class="signature-line">Jane Doe</span> <br>
+            <em>Senior Forensic Analyst</em>
+        </div>
+
+        <div class="stamp">CASE OPENED</div>
+    </div>
+
+    <div class="footer">
+        <p>Forensics Investigation Department &copy; 2024</p>
+    </div>
+
+    <script>
+        // Ask for the user's name on page load
+        window.onload = function() {
+            let userName = prompt("Please enter your name (Investigator):", "Your Name");
+            
+            // If a name is provided, update the investigator name and signature
+            if (userName) {
+                document.getElementById('investigator-name').textContent = userName;
+                document.getElementById('signature').textContent = userName;
+            } else {
+                alert("No name provided. Default investigator name will be used.");
+            }
+        };
+    </script>
+</body>
+</html>

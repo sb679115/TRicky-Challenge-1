@@ -1,0 +1,1850 @@
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'TTNfMWZfeTB1' ---Hide Baby-- logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: Q2x1ZTogRmluZCBtZSBhZ2FpbiBJbiB0aGUgbmV4dCBGaWxl /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+2024-06-17T12:00:01Z INFO System boot completed
+2024-06-17T12:01:12Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:03:45Z ERROR Failed login attempt for user 'root' from IP 192.168.1.100
+2024-06-17T12:03:47Z ERROR Failed login attempt for user 'admin' from IP 192.168.1.100
+2024-06-17T12:03:50Z ALERT Multiple failed logins detected from IP 192.168.1.100
+2024-06-17T12:04:10Z INFO Connection accepted from IP 10.0.0.15
+2024-06-17T12:04:12Z INFO HTTP GET /index.html 200 OK - IP: 10.0.0.15
+2024-06-17T12:04:13Z INFO HTTP GET /flag.txt 404 Not Found - IP: 10.0.0.15
+2024-06-17T12:04:20Z INFO HTTP GET /secret-admin 200 OK - IP: 10.0.0.15
+2024-06-17T12:05:00Z INFO User 'guest' logged in successfully from IP 192.168.0.10
+2024-06-17T12:06:15Z WARNING Disk space usage exceeded 90%
+2024-06-17T12:06:30Z ALERT Unauthorized file access detected: /var/www/html/flag1234.txt
+2024-06-17T12:06:35Z INFO HTTP GET /uploads/file.png 200 OK - IP: 192.168.0.15
+2024-06-17T12:07:00Z ERROR System crash reported - service 'database' failed
+2024-06-17T12:07:10Z INFO System reboot initiated
+2024-06-17T12:10:00Z INFO User 'ctf-user' logged in successfully from IP 10.0.0.20
+2024-06-17T12:10:05Z ALERT Brute force login attempt detected from IP 10.0.0.50
+2024-06-17T12:10:12Z INFO FTP connection established from IP 10.0.0.20
+2024-06-17T12:10:15Z INFO File downloaded: /home/ctf-user/secret_flag1.txt - IP: 10.0.0.20
+2024-06-17T12:11:00Z ERROR Failed login attempt for user 'unknown' from IP 172.16.0.12
+2024-06-17T12:11:15Z ALERT Potential malware activity detected from IP 172.16.0.12
+2024-06-17T12:12:00Z INFO Cron job executed: Backup completed successfully
+2024-06-17T12:12:30Z INFO HTTP GET /hidden/backup_config.zip 200 OK - IP: 192.168.0.15
+2024-06-17T12:13:45Z ERROR Failed login attempt for user 'test' from IP 192.168.1.200
+2024-06-17T12:14:00Z INFO User 'admin' logged out
+2024-06-17T12:15:00Z ALERT File integrity check failed: /home/ctf-user/.ssh/id_rsa
+2024-06-17T12:16:00Z INFO SSH connection established: user 'guest' - IP: 172.16.0.10
+2024-06-17T12:16:05Z ALERT Unauthorized SSH command executed: rm -rf / -- IP: 172.16.0.10
+2024-06-17T12:17:00Z INFO User 'admin' logged in successfully from IP 192.168.0.5
+2024-06-17T12:18:00Z ERROR Memory usage exceeded threshold: 95%
+2024-06-17T12:20:30Z INFO HTTP POST /login.php 302 Redirect - IP: 10.0.0.50
+2024-06-17T12:21:00Z INFO HTTP GET /logs/hidden_flag_2.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:22:00Z INFO System update completed successfully
+2024-06-17T12:23:30Z ERROR Failed login attempt for user 'superuser' from IP 172.16.0.22
+2024-06-17T12:25:00Z INFO FTP connection closed: IP 10.0.0.20
+2024-06-17T12:26:10Z ALERT Unauthorized access attempt detected on /etc/passwd from IP 172.16.0.10
+2024-06-17T12:27:00Z INFO HTTP GET /robots.txt 200 OK - IP: 10.0.0.50
+2024-06-17T12:28:00Z INFO User 'analyst' logged in successfully from IP 192.168.1.150
+2024-06-17T12:28:05Z INFO File uploaded: /uploads/malicious.sh - IP: 192.168.1.150
+2024-06-17T12:28:30Z ALERT Suspicious shell command execution detected: chmod +x malicious.sh
+2024-06-17T12:30:00Z INFO Cron job executed: Daily security scan started
+2024-06-17T12:31:30Z WARNING CPU usage exceeded 90%
+
+
